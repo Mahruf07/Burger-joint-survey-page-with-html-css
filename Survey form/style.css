@@ -1,0 +1,58 @@
+body {
+    font-family: 'Fredoka One';
+    font-size: 22px;
+    background-color: #fa8128;
+    color: #1c1c2c;
+    line-height: 1.4;
+    width: 600px;
+    margin: auto;
+}
+
+form {
+    background: rgb(218,41,28,.4);
+    padding: 2.5rem 2.5rem;
+    width: 600px;
+    margin: auto;
+    border-radius: 2rem;
+}
+
+.form-inputs {
+    display: block;
+    width: 100%;
+    height: 2rem;
+    padding: .25rem .75rem;
+}
+
+#title{
+    text-align: center;
+    padding-left: 50px;
+}
+
+#description {
+    text-align: center;
+    padding-left: 50px;
+}
+
+#submit{
+    width: 100%;
+    padding: .75rem;
+    background-color: #FFC72C;
+    color: #27251F;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.row-tab{
+    margin-top: 20px;
+}
+
+.select-input {
+    position: relative;
+    display: block;
+    width: 15em;
+    height: 2em;
+    line-height: 3;
+    overflow: hidden;
+    border-radius: .25em;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+    <!-- user story #1 -->
+    <h1 id="title">Burger Joint Survey</h1>
+
+    <!-- user story #2 -->
+    <p id="description">This is a survey about burger chains in your area</p>
+
+    <!-- user story #3 -->
+    <form id="survey-form" >
+        <!-- user story #4 -->
+        <div  id="name-label">
+            <label for="name" id="name-label"> Name: </label>
+            <input id="name" type="text" name="name" placeholder="Enter Your Name" class="form-inputs" required> 
+        </div>    
+        <br>
+        <div id="email-label">
+        <label for="email" id="email-label"> Email: </label>
+        <!-- user story #5 & #6-->
+        <input id="email" type="email" name="email" placeholder="name@gmail.com" class="form-inputs" required>
+        </div>
+        <br>
+        <!-- user story #7 & #8 -->
+        <div id="number-label">
+        <label for="number" id="number-label"> Age: </label>
+        <!-- user story #9 -->
+        <input id="number" type="number" name="number" placeholder="18" min="18" max="100" class="form-inputs" required> 
+        </div>
+        <!-- user story #10 - all the div id's above #11 the given placeholders-->
+
+        <div class="row-tab">
+            <div  id="label-select">
+                <label for="dropdown">Select Your Favourite Burger Chain</label>
+            </div>
+            <div  id="select-input">
+                <select name="" id="dropdown">
+                        <option value="Takeout">Takeout</option>
+                        <option value="Madchef">Madchef</option>
+                        <option value="Khana's">Khana's</option>
+                        <option value="Burger Xpress">Burger Xpress</option>
+                        <option value="Chillox">Chillox</option>
+                        <option value="Farmhouse">Farmhouse</option>
+                        <option value="Burger King">Burger King</option>
+                        <option value="KFC">KFC</option>
+                        <option value="BFC">BFC</option>
+                </select>
+            </div>
+        </div>
+        <br>
+        <br>
+        
+        <div class="burger-flavour">
+            <label for="burger-type" id="burger-type">Burger Type: </label>
+
+            <input type="radio" id="burger-type" name="type" value="chicken">
+            <label for="burger-type">Chicken</label>
+
+            <input type="radio" id="burger-type" name="type" value="chicken">
+            <label for="burger-type">Beef</label>
+        </div>
+        <br>
+
+        <div class="patty-type">
+            <label for="patty" id="patty">Patty-Preference: </label>
+
+            <input type="radio" id="patty" name="patty" value="single">
+            <label for="single">Single</label>
+
+            <input type="radio" id="patty" name="patty" value="double">
+            <label for="single">Double</label>
+        </div>
+        
+        <div id="addons">
+
+            <label for="add-ons">Add-ons: </label>
+            
+            <input type="checkbox" id="checkbox" name="add-ones" value="tomatosauce">
+            <label for="checkbox">Tomato Sauce</label>
+            
+
+            <input type="checkbox" id="checkbox" name="add-ones" value="whitesauce">
+            <label for="checkbox">White Sauce</label>
+            
+
+            <input type="checkbox" id="checkbox" name="add-ones" value="cheese">
+            <label for="checkbox">Cheese</label>
+            
+
+            <input type="checkbox" id="checkbox" name="add-ones" value="mayo">
+            <label for="checkbox">Mayonnaise</label>
+
+
+            <input type="checkbox" id="checkbox" name="add-ones" value="lettuce">
+            <label for="checkbox">Lettuce</label>
+
+        </div>
+        <br>
+
+        <div id="textarea">
+            <label id="textarea" for="">Addition Comments:</label>
+            <br>
+            <textarea name="textarea" id="textarea" cols="78" rows="10"></textarea>
+        </div>
+
+        <input type="submit" id="submit" value="submit">
+
+    </form>
+</body>
+</html>
